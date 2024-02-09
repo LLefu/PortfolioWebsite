@@ -1,0 +1,38 @@
+* {
+  font-family: VereleRound;
+}
+
+.primaryBackground {
+  background-color: #151419 !important;
+  font-weight: bold;
+}
+
+.primaryComponent {
+  background-color: #1a1d24 !important;
+}
+
+.secondaryComponent {
+  background-color: #25282f !important;
+}
+
+.colSelected {
+  background-color: #24272e !important;
+}
+
+.primaryText {
+  color: #dbdee5 !important;
+  font-size: 25px !important;
+}
+
+.secondaryText {
+  color: #80838a !important;
+}
+
+.componentInvisible {
+  color: #151419;
+}
+
+@font-face {
+  font-family: "VereleRound";
+  src: url("/src/assets//fonts/VarelaRound-Regular.ttf") format("truetype");
+}
