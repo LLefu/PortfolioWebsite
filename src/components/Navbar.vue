@@ -1,5 +1,10 @@
 <script lang="ts">
 export default {
+  data() {
+    return {
+      route: true,
+    };
+  },
   methods: {
     openInstagram() {
       window.open("https://www.instagram.com/_tommy_1812/");
@@ -22,10 +27,10 @@ export default {
     <div class="primaryBackground wrapper">
       <nav class="navbar navbar-expand-lg navbar-dark colBackground">
         <div class="container-fluid">
-          <a class="navbar-brand primaryText" href="#">
+          <router-link class="navbar-brand primaryText" to="/profile">
             <img src="../assets/Logos/TommyLogo.png" class="mainLogo" />
             Tommy Bank
-          </a>
+          </router-link>
           <button
             class="navbar-toggler"
             type="button"
@@ -35,7 +40,7 @@ export default {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <img src="../assets/hamburger.png" class="hamburgerButton" />
+            <img src="../assets/icons/hamburger.png" class="hamburgerButton" />
           </button>
           <div
             class="collapse navbar-collapse textContent"
@@ -78,7 +83,7 @@ export default {
                       >
                     </li>
                     <li @click="openEmail" class="d-flex socialLinks">
-                      <img class="logo" src="../assets/mail.png" />
+                      <img class="logo" src="../assets/icons/mail.png" />
                       <a class="dropdown-item align-self-center" href="#"
                         >Email</a
                       >
@@ -86,10 +91,21 @@ export default {
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link secondaryText" href="#">Resume</a>
+                  <router-link
+                    @click="
+                      () => {
+                        route = !route;
+                      }
+                    "
+                    class="nav-link secondaryText"
+                    :to="route ? '/resume' : '/profile'"
+                    >{{ route ? "Resume" : "Profile" }}</router-link
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link secondaryText" href="#">Works</a>
+                  <router-link class="nav-link secondaryText" to="/works"
+                    >Works</router-link
+                  >
                 </li>
               </ul>
             </form>
@@ -176,6 +192,7 @@ export default {
   --bs-dropdown-link-active-bg: transparent;
   --bs-dropdown-link-hover-bg: transparent;
   --bs-dropdown-link-color: #80838a;
+  z-index: 999;
 }
 .nav-link:hover {
   color: #b183c7 !important;

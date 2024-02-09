@@ -1,13 +1,12 @@
 <script setup lang="ts">
 import Navbar from "./components/Navbar.vue";
-import Profile from "./components/Profile.vue";
 </script>
 
 <template>
   <div class="primaryBackground">
     <div class="primaryComponent content">
       <Navbar />
-      <Profile />
+      <router-view></router-view>
     </div>
   </div>
 </template>
