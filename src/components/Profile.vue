@@ -37,7 +37,7 @@ export default {
             @click="openLinkedIn"
             src="../assets/Logos/linkedin.png"
           />
-          <img class="logo" @click="openEmail" src="../assets/mail.png" />
+          <img class="logo" @click="openEmail" src="../assets/icons/mail.png" />
         </div>
         <img src="../assets/profileImage.jpg" class="profileImage" />
         <div class="logoCase">
@@ -59,7 +59,7 @@ export default {
           @click="openLinkedIn"
           src="../assets/Logos/linkedin.png"
         />
-        <img class="logo" @click="openEmail" src="../assets/mail.png" />
+        <img class="logo" @click="openEmail" src="../assets/icons/mail.png" />
         <img
           class="logo"
           @click="openInstagram"
@@ -111,12 +111,10 @@ export default {
   padding: 50px;
   display: flex;
 }
-
 .v-enter-active,
 .v-leave-active {
-  transition: opacity 3s ease;
+  transition: opacity 0.5s ease;
 }
-
 .v-enter-from,
 .v-leave-to {
   opacity: 0;

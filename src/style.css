@@ -1,5 +1,6 @@
 * {
   font-family: VereleRound;
+  overflow: hidden;
 }
 
 .primaryBackground {
@@ -21,7 +22,6 @@
 
 .primaryText {
   color: #dbdee5 !important;
-  font-size: 25px !important;
 }
 
 .secondaryText {
