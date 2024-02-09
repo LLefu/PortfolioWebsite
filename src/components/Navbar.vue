@@ -24,8 +24,10 @@ export default {
 
 <template>
   <div class="mainContent">
-    <div class="primaryBackground wrapper">
-      <nav class="navbar navbar-expand-lg navbar-dark colBackground">
+    <div class="wrapper">
+      <nav
+        class="navbar primaryBackground navbar-expand-lg navbar-dark colBackground"
+      >
         <div class="container-fluid">
           <router-link class="navbar-brand primaryText" to="/profile">
             <img src="../assets/Logos/TommyLogo.png" class="mainLogo" />
@@ -112,12 +114,17 @@ export default {
           </div>
         </div>
       </nav>
-      <div class="facade primaryComponent"></div>
+      <div class="facade"></div>
     </div>
   </div>
 </template>
 
 <style scoped>
+.facade {
+  width: 100vw;
+  height: 50px;
+  background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.28 2.17" preserveAspectRatio="none"><path d="M0 .5c3.07.55 9.27-.42 16.14 0 6.88.4 13.75.57 19.14-.11V0H0z" fill="%23000000"/><path d="M0 1c3.17.8 7.29-.38 10.04-.55 2.75-.17 9.25 1.47 12.67 1.3 3.43-.17 4.65-.84 7.05-.87 2.4-.02 5.52.88 5.52.88V0H0z" opacity=".5" fill="%23000000"/><path d="M0 1.85c2.56-.83 7.68-.3 11.79-.42 4.1-.12 6.86-.61 9.58-.28 2.73.33 5.61 1.17 8.61 1 3-.19 4.73-.82 5.3-.84V.1H0z" opacity=".5" fill="%23000000"/></svg>');
+}
 .socialLinks {
   flex-direction: row;
   justify-content: center;
@@ -163,13 +170,6 @@ export default {
   -webkit-animation-name: slideIn;
   animation-name: slideIn;
 }
-
-.facade {
-  width: 100vw;
-  height: 40px;
-  border-top-right-radius: 150px;
-  border-top-left-radius: 150px;
-}
 .mainLogo {
   height: 50px;
 }
@@ -178,6 +178,7 @@ export default {
 }
 .navbar {
   padding: 10px;
+  height: 60px;
 }
 .dropdown-item {
   margin-left: 0px;
@@ -197,6 +198,50 @@ export default {
 .nav-link:hover {
   color: #b183c7 !important;
 }
+
+.shapedividers_com-7762 {
+  overflow: hidden;
+  position: relative;
+}
+.shapedividers_com-7762::before {
+  content: "";
+  font-family: "shape divider from ShapeDividers.com";
+  position: absolute;
+  bottom: -1px;
+  left: -1px;
+  right: -1px;
+  top: -1px;
+  z-index: 3;
+  pointer-events: none;
+  background-repeat: no-repeat;
+  background-size: 100% 90px;
+  background-position: 50% 0%;
+}
+
+@media (min-width: 768px) {
+  .shapedividers_com-7762::before {
+    background-size: 100% 90px;
+    background-position: 50% 0%;
+  }
+}
+
+@media (min-width: 1025px) {
+  .shapedividers_com-7762::before {
+    bottom: -0.1vw;
+    left: -0.1vw;
+    right: -0.1vw;
+    top: -0.1vw;
+    background-size: 100% 206px;
+    background-position: 50% 0%;
+    background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.28 2.17" preserveAspectRatio="none"><path d="M0 .5c3.07.55 9.27-.42 16.14 0 6.88.4 13.75.57 19.14-.11V0H0z" fill="%23000000"/><path d="M0 1c3.17.8 7.29-.38 10.04-.55 2.75-.17 9.25 1.47 12.67 1.3 3.43-.17 4.65-.84 7.05-.87 2.4-.02 5.52.88 5.52.88V0H0z" opacity=".5" fill="%23000000"/><path d="M0 1.85c2.56-.83 7.68-.3 11.79-.42 4.1-.12 6.86-.61 9.58-.28 2.73.33 5.61 1.17 8.61 1 3-.19 4.73-.82 5.3-.84V.1H0z" opacity=".5" fill="%23000000"/></svg>');
+  }
+}
+@media (min-width: 2100px) {
+  .shapedividers_com-7762::before {
+    background-size: 100% calc(2vw + 206px);
+  }
+}
+
 @media (max-width: 992px) {
   .dropdown-menu {
     background-color: transparent;

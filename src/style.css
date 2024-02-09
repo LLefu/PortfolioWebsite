@@ -1,10 +1,14 @@
 * {
   font-family: VereleRound;
+}
+
+.noOverflow {
   overflow: hidden;
+  background: #151419 !important;
 }
 
 .primaryBackground {
-  background-color: #151419 !important;
+  background-color: #000000 !important;
   font-weight: bold;
 }
 
@@ -29,7 +33,7 @@
 }
 
 .componentInvisible {
-  color: #151419;
+  color: #000000;
 }
 
 @font-face {

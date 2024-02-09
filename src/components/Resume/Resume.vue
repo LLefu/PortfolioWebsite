@@ -50,7 +50,7 @@ export default {
 </script>
 
 <template>
-  <Transition class="noOverflow">
+  <Transition>
     <div v-if="show" class="mainContainer">
       <div class="content">
         <div class="selector">
