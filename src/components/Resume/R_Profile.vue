@@ -6,3 +6,11 @@
     work environment and quality work.
   </p>
 </template>
+
+<style>
+@media (max-width: 992px) {
+  .secondaryText {
+    width: 90vw !important;
+  }
+}
+</style>

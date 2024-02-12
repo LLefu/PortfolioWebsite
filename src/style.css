@@ -3,7 +3,7 @@
 }
 
 .noOverflow {
-  overflow: hidden;
+  overflow-x: hidden;
   background: #151419 !important;
 }
 
