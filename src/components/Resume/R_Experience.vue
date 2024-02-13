@@ -22,14 +22,14 @@ export default {
           name: "Havo",
           beginDate: new Date(2014, 8),
           endDate: new Date(2019, 6),
-          icon: "/src/assets/Icons/school.png",
+          icon: "/Icons/school.png",
           description: "With ICT as elective",
         },
         {
           name: "HBO",
           beginDate: new Date(2019, 8),
           endDate: new Date(2024, 6),
-          icon: "/src/assets/Icons/school.png",
+          icon: "/Icons/school.png",
           description:
             "During this study I am learning how to write code, make databases, build applications and analyse business processes. I also look at how companies operate and how IT-Solutions can help them. Ive created multiple web applications during this study and learned how to work with agile development.",
         },
@@ -37,7 +37,7 @@ export default {
           name: "Internship AH",
           beginDate: new Date(2022, 8),
           endDate: new Date(2023, 1),
-          icon: "/src/assets/Icons/internship.png",
+          icon: "/Icons/internship.png",
           description:
             "At AH tech labs I learned how to develop flutter applications while focussing on frontend. The internship also developed my agile skills and taught me what its like to work in a large company environment.",
         },
@@ -45,7 +45,7 @@ export default {
           name: "Internship Arlanet",
           beginDate: new Date(2024, 1),
           endDate: new Date(2024, 6),
-          icon: "/src/assets/Icons/internship.png",
+          icon: "/Icons/internship.png",
           description:
             "My graduation internship at Arlanet focusses on improving their onboarding processes, specifically when joining any ongoing projects. I will also be participating in projects to develop my skills and work experience.",
         },

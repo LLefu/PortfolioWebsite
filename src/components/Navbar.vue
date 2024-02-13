@@ -25,7 +25,7 @@ export default {
       >
         <div class="container-fluid">
           <router-link class="navbar-brand primaryText" to="/">
-            <img src="/src/assets/Logos/TommyLogo.png" class="mainLogo" />
+            <img src="/Logos/TommyLogo.png" class="mainLogo" />
             Tommy Bank
           </router-link>
           <button
@@ -37,7 +37,7 @@ export default {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <img src="../assets/Icons/hamburger.png" class="hamburgerButton" />
+            <img src="/Icons/hamburger.png" class="hamburgerButton" />
           </button>
           <div
             class="collapse navbar-collapse textContent"
@@ -61,25 +61,25 @@ export default {
                     aria-labelledby="navbarDropdown"
                   >
                     <li @click="openLinkedIn" class="d-flex socialLinks">
-                      <img class="logo" src="../assets/Logos/linkedin.png" />
+                      <img class="logo" src="/Logos/linkedin.png" />
                       <a class="dropdown-item align-self-center" href="#"
                         >LinkedIn</a
                       >
                     </li>
                     <li @click="openInstagram" class="d-flex socialLinks">
-                      <img class="logo" src="../assets/Logos/instagram.png" />
+                      <img class="logo" src="/Logos/instagram.png" />
                       <a class="dropdown-item align-self-center" href="#"
                         >Instagram</a
                       >
                     </li>
                     <li @click="openDiscord" class="d-flex socialLinks">
-                      <img class="logo" src="../assets/Logos/discord.png" />
+                      <img class="logo" src="/Logos/discord.png" />
                       <a class="dropdown-item align-self-center" href="#"
                         >Discord</a
                       >
                     </li>
                     <li @click="openEmail" class="d-flex socialLinks">
-                      <img class="logo" src="../assets/Icons/email.png" />
+                      <img class="logo" src="/Icons/email.png" />
                       <a class="dropdown-item align-self-center" href="#"
                         >Email</a
                       >

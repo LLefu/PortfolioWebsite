@@ -5,51 +5,51 @@ export default {
       skills: [
         {
           name: "Javascript",
-          icon: "/src/assets/Icons/javascript.svg",
+          icon: "/Icons/javascript.svg",
         },
         {
           name: "Css",
-          icon: "/src/assets/Icons/css.png",
+          icon: "/Icons/css.png",
         },
         {
           name: "HTML",
-          icon: "/src/assets/Icons/html.png",
+          icon: "/Icons/html.png",
         },
         {
           name: "Kotlin",
-          icon: "/src/assets/Icons/kotlin.png",
+          icon: "/Icons/kotlin.png",
         },
         {
           name: "Flutter",
-          icon: "/src/assets/Icons/flutter.png",
+          icon: "/Icons/flutter.png",
         },
         {
           name: "React",
-          icon: "/src/assets/Icons/react.png",
+          icon: "/Icons/react.png",
         },
         {
           name: "Next.js",
-          icon: "/src/assets/Icons/next.png",
+          icon: "/Icons/next.png",
         },
         {
           name: "Vue.js",
-          icon: "/src/assets/Icons/vue.png",
+          icon: "/Icons/vue.png",
         },
         {
           name: "Vite",
-          icon: "/src/assets/Icons/vite.svg",
+          icon: "/Icons/vite.svg",
         },
         {
           name: "Angular",
-          icon: "/src/assets/Icons/angular.png",
+          icon: "/Icons/angular.png",
         },
         {
           name: "Java",
-          icon: "/src/assets/Icons/java.png",
+          icon: "/Icons/java.png",
         },
         {
           name: "Photoshop",
-          icon: "/src/assets/Icons/photoshop.png",
+          icon: "/Icons/photoshop.png",
         },
       ],
     };

@@ -8,12 +8,12 @@ export default {
         {
           title: "Kapperij de Passage",
           link: "https://www.kapperijdepassage.nl/",
-          image: "/src/assets/works/passage.png",
+          image: "/works/passage.png",
         },
         {
           title: "Portfolio",
           link: "http://localhost:5173/profile",
-          image: "/src/assets/works/portfolio.png",
+          image: "/works/portfolio.png",
         },
       ],
     };

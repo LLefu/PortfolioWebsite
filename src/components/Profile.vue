@@ -32,48 +32,20 @@ export default {
     <div v-if="show">
       <div class="centerContainer">
         <div class="logoCase">
-          <img
-            class="logo"
-            @click="openLinkedIn"
-            src="../assets/Logos/linkedin.png"
-          />
-          <img
-            class="logo"
-            @click="openEmail"
-            src="../assets/Icons/email.png"
-          />
+          <img class="logo" @click="openLinkedIn" src="/Logos/linkedin.png" />
+          <img class="logo" @click="openEmail" src="/Icons/email.png" />
         </div>
-        <img src="../assets/profileImage.jpg" class="profileImage" />
+        <img src="/profileImage.jpg" class="profileImage" />
         <div class="logoCase">
-          <img
-            class="logo"
-            @click="openInstagram"
-            src="../assets/Logos/instagram.png"
-          />
-          <img
-            class="logo"
-            @click="openDiscord"
-            src="../assets/Logos/discord.png"
-          />
+          <img class="logo" @click="openInstagram" src="/Logos/instagram.png" />
+          <img class="logo" @click="openDiscord" src="/Logos/discord.png" />
         </div>
       </div>
       <div class="mobileLogoCase">
-        <img
-          class="logo"
-          @click="openLinkedIn"
-          src="../assets/Logos/linkedin.png"
-        />
-        <img class="logo" @click="openEmail" src="../assets/Icons/email.png" />
-        <img
-          class="logo"
-          @click="openInstagram"
-          src="../assets/Logos/instagram.png"
-        />
-        <img
-          class="logo"
-          @click="openDiscord"
-          src="../assets/Logos/discord.png"
-        />
+        <img class="logo" @click="openLinkedIn" src="/Logos/linkedin.png" />
+        <img class="logo" @click="openEmail" src="/Icons/email.png" />
+        <img class="logo" @click="openInstagram" src="/Logos/instagram.png" />
+        <img class="logo" @click="openDiscord" src="/Logos/discord.png" />
       </div>
       <div class="textBox">
         <h1 class="primaryText nameText">Tommy Bank</h1>
