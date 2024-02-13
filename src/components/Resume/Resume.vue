@@ -132,10 +132,11 @@ export default {
   border-radius: 5000px;
   text-decoration: none;
   color: white;
-  position: relative;
-  right: -80%;
+  position: absolute;
   padding-left: 10px;
   padding-right: 10px;
+  top: 120px;
+  right: 20px;
 }
 
 .downloadButton p {
