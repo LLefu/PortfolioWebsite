@@ -24,8 +24,8 @@ export default {
         class="navbar primaryBackground navbar-expand-lg navbar-dark colBackground"
       >
         <div class="container-fluid">
-          <router-link class="navbar-brand primaryText" to="/profile">
-            <img src="../assets/Logos/TommyLogo.png" class="mainLogo" />
+          <router-link class="navbar-brand primaryText" to="/">
+            <img src="/src/assets/Logos/TommyLogo.png" class="mainLogo" />
             Tommy Bank
           </router-link>
           <button

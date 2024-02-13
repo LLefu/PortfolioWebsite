@@ -14,9 +14,9 @@ export default {
         { name: "Skills", component: R_Skills },
       ],
       imagePaths: [
-        "../../assets/Icons/experienceIcon.png",
-        "../../assets/profileImage.jpg",
-        "../../assets/Icons/skillIcon.png",
+        "/src/assets/Icons/experienceIcon.png",
+        "/src/assets/profileImage.jpg",
+        "/src/assets/Icons/skillIcon.png",
       ],
     };
   },
