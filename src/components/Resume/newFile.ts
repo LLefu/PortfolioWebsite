@@ -38,9 +38,8 @@ name: "HBO",
 beginDate: new Date(2019, 8),
 endDate: new Date(2024, 6),
 icon: "/src/assets/Icons/school.png",
-description: "In this study I am learning how to write code, make databases, build applications and analyse business processes.\u2028I also look at how companies operate and how IT-Solutions within can help them.",
-Ive, created, multiple, web, applications, during, this: study, and, learned, how, to, work, with: agile, development, : ., ",": 
-                },
+description: "In this study I am learning how to write code, make databases, build applications and analyse business processes.\u2028I also look at how companies operate and how IT-Solutions within can help them. Ive, created, multiple, web, applications, during, this: study, and, learned, how, to, work, with: agile, development", 
+},
 {
 shown: false,
 name: "Internship AH",
