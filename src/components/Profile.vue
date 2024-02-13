@@ -40,7 +40,7 @@ export default {
           <img
             class="logo"
             @click="openEmail"
-            src="/src/assets/Icons/mail.png"
+            src="../assets/Icons/email.png"
           />
         </div>
         <img src="../assets/profileImage.jpg" class="profileImage" />
