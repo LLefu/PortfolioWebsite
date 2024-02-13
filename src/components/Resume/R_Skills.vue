@@ -66,7 +66,7 @@ export default {
   </div>
 </template>
 
-<style>
+<style scoped>
 .skillCase {
   width: 100vw;
   display: flex;

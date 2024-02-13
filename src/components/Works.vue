@@ -74,8 +74,8 @@ a:active {
 .work img {
   border-radius: 30px;
   padding: 20px;
-  width: 400px;
-  height: 250px;
+  width: 350px;
+  height: 230px;
 }
 .v-enter-active,
 .v-leave-active {

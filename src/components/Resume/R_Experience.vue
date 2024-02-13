@@ -98,9 +98,8 @@ export default {
   </div>
 </template>
 
-<style>
+<style scoped>
 .label {
-  height: 40px;
   padding: 20px;
 }
 .modal-content {

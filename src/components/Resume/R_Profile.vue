@@ -7,7 +7,7 @@
   </p>
 </template>
 
-<style>
+<style scoped>
 @media (max-width: 992px) {
   .secondaryText {
     width: 90vw !important;
