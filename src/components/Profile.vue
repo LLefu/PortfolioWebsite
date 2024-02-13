@@ -63,7 +63,7 @@ export default {
           @click="openLinkedIn"
           src="../assets/Logos/linkedin.png"
         />
-        <img class="logo" @click="openEmail" src="../assets/icons/mail.png" />
+        <img class="logo" @click="openEmail" src="../assets/Icons/email.png" />
         <img
           class="logo"
           @click="openInstagram"
