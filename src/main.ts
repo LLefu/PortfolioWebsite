@@ -9,7 +9,7 @@ import ResumeVue from './components/Resume/Resume.vue';
 import WorksVue from './components/Works.vue';
 
 const routes = [
-    { path: '/profile', component: ProfileVue },
+    { path: '/', component: ProfileVue },
     { path: '/resume', component: ResumeVue },
     { path: '/works', component: WorksVue }
 ]

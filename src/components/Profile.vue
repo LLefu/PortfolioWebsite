@@ -37,7 +37,11 @@ export default {
             @click="openLinkedIn"
             src="../assets/Logos/linkedin.png"
           />
-          <img class="logo" @click="openEmail" src="../assets/icons/mail.png" />
+          <img
+            class="logo"
+            @click="openEmail"
+            src="/src/assets/Icons/mail.png"
+          />
         </div>
         <img src="../assets/profileImage.jpg" class="profileImage" />
         <div class="logoCase">
