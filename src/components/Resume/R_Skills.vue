@@ -5,51 +5,51 @@ export default {
       skills: [
         {
           name: "Javascript",
-          icon: "/src/assets/icons/javascript.svg",
+          icon: "/src/assets/Icons/javascript.svg",
         },
         {
           name: "Css",
-          icon: "/src/assets/icons/css.png",
+          icon: "/src/assets/Icons/css.png",
         },
         {
           name: "HTML",
-          icon: "/src/assets/icons/html.png",
+          icon: "/src/assets/Icons/html.png",
         },
         {
           name: "Kotlin",
-          icon: "/src/assets/icons/kotlin.png",
+          icon: "/src/assets/Icons/kotlin.png",
         },
         {
           name: "Flutter",
-          icon: "/src/assets/icons/flutter.png",
+          icon: "/src/assets/Icons/flutter.png",
         },
         {
           name: "React",
-          icon: "/src/assets/icons/react.png",
+          icon: "/src/assets/Icons/react.png",
         },
         {
           name: "Next.js",
-          icon: "/src/assets/icons/next.png",
+          icon: "/src/assets/Icons/next.png",
         },
         {
           name: "Vue.js",
-          icon: "/src/assets/icons/vue.png",
+          icon: "/src/assets/Icons/vue.png",
         },
         {
           name: "Vite",
-          icon: "/src/assets/icons/vite.svg",
+          icon: "/src/assets/Icons/vite.svg",
         },
         {
           name: "Angular",
-          icon: "/src/assets/icons/angular.png",
+          icon: "/src/assets/Icons/angular.png",
         },
         {
           name: "Java",
-          icon: "/src/assets/icons/java.png",
+          icon: "/src/assets/Icons/java.png",
         },
         {
           name: "Photoshop",
-          icon: "/src/assets/icons/photoshop.png",
+          icon: "/src/assets/Icons/photoshop.png",
         },
       ],
     };

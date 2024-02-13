@@ -37,7 +37,7 @@ export default {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <img src="../assets/icons/hamburger.png" class="hamburgerButton" />
+            <img src="../assets/Icons/hamburger.png" class="hamburgerButton" />
           </button>
           <div
             class="collapse navbar-collapse textContent"
@@ -79,7 +79,7 @@ export default {
                       >
                     </li>
                     <li @click="openEmail" class="d-flex socialLinks">
-                      <img class="logo" src="../assets/icons/mail.png" />
+                      <img class="logo" src="../assets/Icons/email.png" />
                       <a class="dropdown-item align-self-center" href="#"
                         >Email</a
                       >

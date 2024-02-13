@@ -14,9 +14,9 @@ export default {
         { name: "Skills", component: R_Skills },
       ],
       imagePaths: [
-        "/src/assets/icons/experienceIcon.png",
+        "/src/assets/Icons/experienceIcon.png",
         "/src/assets/profileImage.jpg",
-        "/src/assets/icons/skillIcon.png",
+        "/src/assets/Icons/skillIcon.png",
       ],
     };
   },
@@ -65,7 +65,7 @@ export default {
           href="/src/assets/TommyBankCV2024.pdf"
           download="TommyBankCV2024.pdf"
         >
-          <img src="../../assets/icons/downloads.png" class="smallIcon" />
+          <img src="../../assets/Icons/downloads.png" class="smallIcon" />
           <p>Download Resume</p></a
         >
         <div class="selectorDesktop">
